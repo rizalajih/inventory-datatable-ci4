@@ -10,6 +10,7 @@ class Barang extends Controller
         // ytyht
         // test
         // new
+        // nhdbd
         $model = new Barang_model;
         $data['title']     = 'Data Barang';
         $data['getBarang'] = $model->getBarang();
