@@ -8,6 +8,7 @@ class Barang extends Controller
     public function index()
     {
         // test
+        // testmaneh
         $model = new Barang_model;
         $data['title']     = 'Data Barang';
         $data['getBarang'] = $model->getBarang();
