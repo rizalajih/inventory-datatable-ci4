@@ -7,6 +7,7 @@ class Barang extends Controller
 {
     public function index()
     {
+        // ytyht
         // test
         // new
         $model = new Barang_model;
